@@ -21,7 +21,7 @@ The four function is used to take each line from the main file.
 Print the output.
 ## PROGRAM:
 ```python
-developde by: J.NETHRAA
+developed by: J.NETHRAA
 registered number: 22006789
 with open("git.txt","r") as f1:
     with open("MyFile.txt","a") as f2:

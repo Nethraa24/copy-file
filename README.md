@@ -23,14 +23,18 @@ Print the output.
 ```python
 developed by: J.NETHRAA
 registered number: 22006789
-with open("git.txt","r") as f1:
-    with open("MyFile.txt","a") as f2:
-        for line in f1:
-            f2.write(line)
+with open('first.txt','r') as firstfile, open('second.txt','a') as secondfile:
+    for line in firstfile:
+             secondfile.write(line)
 ```
 
 ### OUTPUT:
-![image](https://user-images.githubusercontent.com/121215786/214859326-815093da-273f-4ea2-8593-0cc0b8ee93b9.png)
+![image](https://user-images.githubusercontent.com/121215786/215334315-2dcc1d05-39ba-4755-8371-4c52b985ba78.png)
+
+![image](https://user-images.githubusercontent.com/121215786/215334343-12dd7207-b414-4ce9-ac08-b05e9a17e923.png)
+
+![image](https://user-images.githubusercontent.com/121215786/215334464-36da5f26-2198-4455-877c-f716cc2ed830.png)
+
 
 
 
